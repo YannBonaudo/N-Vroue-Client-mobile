@@ -15,6 +15,10 @@ Clone the git repository
 - 'dir' shows the content of the folder
 - 'cd xxx' to enter in the xxx folder
 - 'git clone https://github.com/YannBonaudo/N-Vroue-Client-mobile.git'
+- 'cd N-Vroue-Client-mobile' 
+- 'cd n.vroue' 
+- 'npm install' will install all the dependencies needed
+- 'ionic serve' Will start the app
 
 Save to the git repository
 - 'git status', shows what has been modified and, in green, what is going to be commited
