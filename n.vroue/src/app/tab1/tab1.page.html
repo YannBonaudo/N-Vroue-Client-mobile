@@ -1,23 +1,22 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      n.Vroue
-    </ion-title>
+  <ion-toolbar color="primary">
+    <h1>n.V-roue</h1>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  
+  <ion-title>
+        Etat de la batterie
+      </ion-title>
+      <ion-input [(ngModel)]="systemBattery"></ion-input>
+      
   <ion-title>
     Activer/Désactiver le Système
   </ion-title>
   <ion-label *ngIf="systemActivated">Système Activé</ion-label>
-  <ion-label *ngIf="!systemActivated">Système Desactivé</ion-label>
+  <ion-label *ngIf="!systemActivated">Système Désactivé</ion-label>
   <ion-toggle color="success" [(ngModel)]="systemActivated" (ngModelChange)="toggleSystemStatus()"></ion-toggle>
   <ion-text color="danger">{{ systemError }}</ion-text>
 
-  <ion-title>
-      Etat de la batterie
-    </ion-title>
-    <ion-label>100%</ion-label>
-    
 </ion-content>
