@@ -1,6 +1,13 @@
-h1 
-{ 
-text-align: center
-} 
+@import '../../theme/variables.scss';
 
 
+.card{
+    height: 35%;
+    margin: 10px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 2px 2px 2px 2px rgb(220, 220, 220);
+    border-radius: 10px;
+}
+ion-toggle{
+    height: 100px;
+}

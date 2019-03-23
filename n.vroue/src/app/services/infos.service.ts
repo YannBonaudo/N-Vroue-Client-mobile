@@ -8,17 +8,17 @@ export class InfosService {
   constructor() { }
 
   // Get status of n.v-roue system
-  getSystemStatus(){
+  getSystemStatus(): boolean {
     return false;
   }
 
   // Modify status of n.v-roue system
-  modifySytemStatus(status){
+  modifySytemStatus(status) : void {
     console.log (status); 
   }
 
   // Get Percentage Battery
-  getSystemBattery(){
+  getSystemBattery() : number {
     return 40;
   }
 

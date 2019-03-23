@@ -23,7 +23,7 @@ export class Tab1Page implements OnInit  {
     this.infoService.modifySytemStatus(this.systemActivated);
       // If success, rien de special
       // If error, display error message
-      this.systemError = "Système inaccessible";
+      // this.systemError = "Système inaccessible";
       // this.systemActivated = true;
 
   }
