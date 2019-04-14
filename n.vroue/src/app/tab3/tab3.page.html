@@ -1,1 +1,19 @@
-<ion-content></ion-content>
+<ion-content>
+    <div class="card">
+      <ion-title>
+        Dernières Notifications
+      </ion-title>
+        <div class="row" *ngFor="let notification of notifications">
+            <span class="col">{{notification.type}}</span> |
+            <span class="col">{{notification.date}}</span> |
+            <span class="col">{{notification.description}}</span>
+        </div>
+    </div>
+    <div class="card">
+      <ion-title>
+        Kms Parcourus
+      </ion-title>
+      <ion-text>{{ kmNumber }}</ion-text>
+    </div>
+</ion-content>
+  

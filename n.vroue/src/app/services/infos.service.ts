@@ -22,4 +22,21 @@ export class InfosService {
     return 40;
   }
 
+    // Get Km Number
+    getKmNumber() : number {
+      return 1000;
+    }
+
+    // Get Notifications
+    getNotifications() : object[] {
+      return [{ type:   'Alerte',  
+        date:   '07/02',
+        description: 'fsqokfpqosf' },
+        { type:   'Stop',  
+        date:   '07/04',
+        description: 'fqds' }
+      ];
+    }
+
+
 }
