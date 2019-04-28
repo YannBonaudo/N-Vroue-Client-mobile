@@ -1,14 +1,26 @@
 @import '../../theme/variables.scss';
 
-.card{
-    height: 35%;
+.card {
+    height: 65%;
     margin: 10px;
     background-color: rgb(247, 247, 247);
     box-shadow: 2px 2px 2px 2px rgb(220, 220, 220);
     border-radius: 10px;
 }
 
-ion-title{
-    padding-top: 20px;
-    margin-bottom: 30px;
+ion-title {
+    padding-top: 5px;
+    margin-bottom: 2px;
+}
+
+.weather {
+    height: 100px;
+}
+
+#map {
+    margin: 35px;
+    box-sizing: border-box;
+    font-size: 0.1em;
+    height: 0px;
+    width: 0px;
 }

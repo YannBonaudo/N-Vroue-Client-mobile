@@ -1,15 +1,17 @@
 <ion-content>
-    <div class="card">
+    <div class="card weather">
       <ion-title>
         Météo
       </ion-title>
-      <ion-text>Afficher la météo</ion-text>
+      <ion-text>{{ weather.time[0] + ' : ' + weather.status[0] + ' - ' + weather.temp[0] + '°' }}</ion-text> <br>
+      <ion-text>{{ weather.time[1] + ' : ' + weather.status[1] + ' - ' + weather.temp[1] + '°' }}</ion-text> <br>
+      <ion-text>{{ weather.time[2] + ' : ' + weather.status[2] + ' - ' + weather.temp[2] + '°' }}</ion-text>
     </div>
     <div class="card">
       <ion-title>
         GPS
       </ion-title>
-    <ion-text>{{ GPSCoordinate }}</ion-text>
+      <div id="map"></div>
     </div>
 </ion-content>
   
